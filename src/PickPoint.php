@@ -24,8 +24,8 @@ class PickPoint extends Request
          * @var $Auth Type\Auth
          */
         $Auth = $this->__request(self::METHOD_POST, '/login', Type\Auth::class, [
-            'login' => $login,
-            'password' => $passw
+            'Login' => $login,
+            'Password' => $passw
             ]);
 
         if($Auth->SessionId && !$this->is_test)
