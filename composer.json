@@ -1,29 +1,33 @@
 {
-    "name": "domatskiy/pickpoint",
+    "name": "furi0us/pickpoint",
     "type": "library",
     "description": "PickPoint API",
     "keywords": ["PickPoint", "delivery", "postomat"],
-    "homepage": "https://github.com/domatskiy",
+    "homepage": "https://github.com/furi0us",
     "license": "MIT",
     "authors": [
         {
             "name": "Evgeniy Domatskiy",
+            "role": "Developer"
+        },
+        {
+            "name": "Evgeniy Kazban",
             "role": "Developer"
         }
     ],
     "repositories":[
         {
             "type":"git",
-            "url":"https://github.com/domatskiy/pickpoint"
+            "url":"https://github.com/furi0us/pickpoint"
         },
         {
             "type":"package",
             "package":{
-                "name":"domatskiy/pickpoint",
+                "name":"furi0us/pickpoint",
                 "version":"0.4.1",
                 "source":{
                     "type":"git",
-                    "url":"https://github.com/domatskiy/pickpoint",
+                    "url":"https://github.com/furi0us/pickpoint",
                     "reference":"master"
                 }
             }
