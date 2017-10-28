@@ -26,7 +26,7 @@ class CalcResult extends Type
             if($key == 'Services')
                 $this->data[$key] = new TarifList($value);
             else
-                $this->data[$key] = new Tarif($value);
+                $this->data[$key] = $value;
         }
 
     }
