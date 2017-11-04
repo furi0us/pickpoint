@@ -15,19 +15,5 @@ class CalcResult extends Type
     public $Zone = [];
 
 
-    /**
-     * StateList constructor.
-     * @param array $data
-     */
-    function __construct(array $data)
-    {
-        foreach ($data as $key => $value)
-        {
-            if($key == 'Services')
-                $this->data[$key] = new TarifList($value);
-            else
-                $this->data[$key] = $value;
-        }
-
-    }
+ 
 }
